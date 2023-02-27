@@ -3,6 +3,7 @@
 
 ## List of libraries
 - [ngboost-auth](https://www.npmjs.com/package/ngboost-auth) - authentication module
+- [ngboost-cookies](https://www.npmjs.com/package/ngboost-cookies) - manipulate with browser cookies
 
 
 ## Angular - create NPM library
