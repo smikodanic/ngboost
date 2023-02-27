@@ -1,0 +1,22 @@
+{
+  "name": "ngboost-auth",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "description": "Angular authentication service with Json Web Token (JWT).",
+  "keywords": [
+    "angular",
+    "authentication",
+    "auth",
+    "JWT",
+    "service"
+  ],
+  "author": "Saša Mikodanić",
+  "license": "MIT"
+}
