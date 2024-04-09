@@ -21,7 +21,7 @@ $ cd ngboost
 $ ng generate library ngboost-auth
 ```
 
-The projects/ngboost-auth  folder is created. 
+The projects/ngboost-auth folder is created. 
 In the /src/ folder place the angular library code.
 In file projects/ngboost-auth/src/public-api.ts define what will be exported, for example:
 ```javascript
@@ -41,4 +41,24 @@ To publish it do:
 ```bash
 $ cd dist/ngboost-auth
 $ npm publish
+```
+
+
+### Update to new Angular version
+```
+// update angular
+ng update @angular/core@17 @angular/cli@17
+
+// re-build every project
+ng build ngboost-auth
+ng build ngboost-cookies
+
+// publish to npm
+cd dist/ngboost-auth
+npm version minor
+npm publish
+
+cd dist/ngboost-cookies
+npm version minor
+npm publish
 ```
